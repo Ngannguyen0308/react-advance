@@ -1,15 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import UseStateArray from './useState-array';
+// import UseStateObject from './useStateObject';
+// import UseStateArray from './useState-array';
 // import App from './App';
-// import {UseSateBasics} from './useState-basic';
+import {UseSateBasics} from './useState-basic';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    < UseStateArray />
+    < UseSateBasics />
   </React.StrictMode>
 );
 

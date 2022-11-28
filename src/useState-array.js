@@ -4,13 +4,6 @@ import {data} from './data';
 const UseStateArray = () => {
     //useState array
     const [people, setPeole] = useState(data);
-    //useState object
-    // const [person, setPerson] = useState({
-    //     name:'susan',
-    //     age:'23',
-    //     job:'doctor',
-    // });
-
 
     //remove item
     const removeItem = (id) =>{
